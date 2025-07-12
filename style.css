@@ -3,16 +3,21 @@ body {
   scroll-behavior: smooth;
 }
 
-.hero {
-  background: linear-gradient(to right, #1e3c72, #2a5298);
+.hero-section {
+  background: linear-gradient(135deg, #1f4037, #99f2c8);
   min-height: 100vh;
   padding-top: 80px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-h2 {
+section h2 {
   font-weight: 700;
 }
 
 .card-title {
   font-weight: 600;
+}
+
+a {
+  text-decoration: none;
 }
