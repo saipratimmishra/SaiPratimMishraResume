@@ -1,12 +1,13 @@
 body {
   font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
+  padding-top: 70px;
 }
 
 .hero-section {
   background: linear-gradient(135deg, #1f4037, #99f2c8);
   min-height: 100vh;
-  padding-top: 80px;
+  padding-top: 100px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
