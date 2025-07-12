@@ -1,0 +1,20 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.hero {
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  height: 100vh;
+}
+
+.timeline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.timeline li {
+  padding: 10px 0;
+  border-left: 3px solid #007bff;
+  padding-left: 15px;
+  margin-left: 10px;
+}
