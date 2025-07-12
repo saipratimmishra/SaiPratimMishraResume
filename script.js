@@ -3,7 +3,10 @@ document.querySelectorAll('a.nav-link').forEach(link => {
     const target = document.querySelector(this.getAttribute('href'));
     if (target) {
       e.preventDefault();
-      target.scrollIntoView({ behavior: 'smooth' });
+      window.scrollTo({
+        top: target.offsetTop - 60,
+        behavior: 'smooth'
+      });
     }
   });
 });
